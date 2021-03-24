@@ -1,8 +1,17 @@
+body,
+body * {
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: #8ecadf;
 }
 
-main {
+.container {
     display: inline-block;
     width: 800px;
     margin-left: calc((100% - 800px) / 2);
@@ -10,16 +19,43 @@ main {
     margin-top: 100px;
 }
 
-div:first-of-type {
+.left-column {
     display: inline-block;
     width: 40%;
     float: left;
+    padding: 40px;
     background-color: #0051a9;
 }
 
-div:last-of-type {
+.main-title {
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 100px;
+}
+
+.bottom-links {
+    display: inline-block;
+    width: 100%;
+
+}
+
+.link {
+    display: inline-block;
+    color: #fff;
+}
+
+.symbol {
+    display: inline-block;
+    color: #fff;
+}
+
+.right-column {
     display: inline-block;
     width: 60%;
     float: left;
+    padding: 60px;
     background-color: #fff;
 }
