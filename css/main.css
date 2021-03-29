@@ -138,7 +138,7 @@ body {
     padding: 10px;
     padding-left: 40px;
     padding-right: 40px;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 20px;
     font-weight: bold;
     background-color: #015cda;
@@ -152,14 +152,14 @@ body {
     float: left;
     padding: 10px;
     margin-left: 10px;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 20px;
   }
 
   .form-row > a {
     float: left;
     padding: 10px;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 20px;
     color: #015cda;
     text-decoration: none;
